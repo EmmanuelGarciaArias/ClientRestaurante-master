@@ -27,7 +27,7 @@ auth.onAuthStateChanged(user => {
   }
 
   Vue.use(VueAxios, axios);
-  axios.defaults.baseURL = 'http://localhost:29260/';
+  axios.defaults.baseURL = 'https://api-bk.herokuapp.com/';
 
 new Vue({
   router,
