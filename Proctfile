@@ -1,1 +1,1 @@
-front1 : npm start
+front1 : npm start build
