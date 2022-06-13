@@ -1,1 +1,1 @@
-front1 : npm run serve
+front1 : npm start
