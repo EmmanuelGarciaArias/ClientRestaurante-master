@@ -1,1 +1,1 @@
-front : npm serve build
+front : npm run serve
