@@ -21,9 +21,9 @@
         <router-link :to="{name: 'Menu'}" v-if="existeUsuario" class="mr-5 btn btn-outline-info">Menu</router-link>
         <router-link :to="{name: 'Ordenes'}" v-if="existeUsuario" class="mr-5 btn btn-outline-info">Ordenes</router-link>
         <router-link :to="{name: 'Consulta'}" v-if="existeUsuario" class="mr-5 btn btn-outline-info">Administracion de Ventas</router-link>
-        <!-- <router-link :to="{name: 'Total'}" v-if="existeUsuario" class="mr-5">Total de ventas</router-link> 
+        <!-- <router-link :to="{name: 'Total'}" v-if="existeUsuario" class="mr-5">Total de ventas</router-link>-->
         <router-link :to="{name: 'Registro'}" v-if="!existeUsuario" class="mr-5">Registro</router-link>
-        <router-link :to="{name: 'Login'}" v-if="!existeUsuario" class="mr-5">Login</router-link>-->
+        <router-link :to="{name: 'Login'}" v-if="!existeUsuario" class="mr-5">Login</router-link>
         <button @click="cerrarSesion" v-if="existeUsuario" class="mr-5 btn btn-outline-info">Cerrar Sesion</button>
 
 
